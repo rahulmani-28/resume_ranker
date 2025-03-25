@@ -7,7 +7,7 @@ import google.generativeai as genai
 import docx  
 import re
 
-genai.configure(api_key="AIzaSyBhn9wFimcEd7WOPf1EdJPhDsoHnStUSfA")
+genai.configure(api_key="YOUR_API_KEY")
 model = genai.GenerativeModel("gemini-1.5-pro-latest")
 
 # 📌 **Extract text from PDFs**
